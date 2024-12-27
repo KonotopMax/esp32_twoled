@@ -18,7 +18,7 @@ void app_main(void)
     gpio_set_direction(LED1, GPIO_MODE_OUTPUT);
     gpio_set_direction(LED2, GPIO_MODE_OUTPUT);
     
-    ESP_LOGI(TAG, "Программа запущена!");
+    ESP_LOGI(TAG, "Программа запущена!"); //Программа запущена!
     ESP_LOGI(TAG, "Светодиоды должны мигать поочередно");
     ESP_LOGI(TAG, "Подключение:");
     ESP_LOGI(TAG, "- GPIO4 -> Резистор 220Ом -> АНОД первого светодиода -> КАТОД -> GND");
